@@ -4,4 +4,6 @@ FROM scratch
 
 COPY --from=source /usr/local/bin/temporal-sql-tool /usr/local/bin/temporal-sql-tool
 
+WORKDIR /app
+
 ENTRYPOINT ["/usr/local/bin/temporal-sql-tool"]

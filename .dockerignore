@@ -1,2 +1,7 @@
+.gitignore
+.DS_Store
+
 LICENSE
 README.md
+
+temporal/
